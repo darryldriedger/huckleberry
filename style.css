@@ -9,26 +9,6 @@ body {
   padding: 0;
 }
 
-/* ### Color palette
-
-Primary (green):
-
-- `hsl(160deg, 100%, 30%)`
-
-Secondary (gold):
-
-- `hsl(45deg, 100%, 50%)` (lighter)
-- `hsl(45deg, 100%, 40%)` (darker)
-
-Grays:
-
-- `hsl(0deg, 0%, 0%)` (black)
-- `hsl(0deg, 0%, 10%)` (very dark)
-- `hsl(0deg, 0%, 30%)` (dark)
-- `hsl(0deg, 0%, 40%)` (medium)
-- `hsl(0deg, 0%, 60%)` (light)
-- `hsl(0deg, 0%, 100%)` (white) */
-
 /* Add styles here! */
 body {
   background-color: hsl(0deg, 0%, 60%);
@@ -55,8 +35,6 @@ header {
   width: fit-content;
   background-color: hsl(0deg, 0%, 100%);
   margin-top: 50px;
-  /* padding-top: 5px;
-  padding-left: 20px; */
   padding: 5px 20px 20px 20px;
   border-bottom: 5px solid hsl(0deg, 0%, 30%);
 }
@@ -74,7 +52,6 @@ h2 {
 p strong{
   color: hsl(160deg, 100%, 30%)
 }
-
 
 /* @media (max-width: 300px) {
   .small-only {
