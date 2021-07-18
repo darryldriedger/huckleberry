@@ -44,9 +44,10 @@ header {
 }
 
 .intro-chunk {
+  max-width: 350px;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 10px;
+  padding-left: 20px;
 } 
 
 .card {
@@ -54,8 +55,9 @@ header {
   width: fit-content;
   background-color: hsl(0deg, 0%, 100%);
   margin-top: 50px;
-  padding-top: 5px;
-  padding-left: 10px;
+  /* padding-top: 5px;
+  padding-left: 20px; */
+  padding: 5px 20px 20px 20px;
   border-bottom: 5px solid hsl(0deg, 0%, 30%);
 }
 
@@ -63,10 +65,9 @@ h2 {
   width: -moz-fit-content;
   width: fit-content;
   background-color: hsl(45deg, 100%, 50%);
-  padding-left: 10px;
-  /* margin-bottom: 10px; */
-  margin-left: -20px;
-  padding: 10px;
+  padding-left: 30px;
+  margin-left: -30px;
+  padding: 10px 10px 10px 30px;
   border-bottom: 5px solid hsl(45deg, 100%, 40%);
 }
 
