@@ -9,4 +9,87 @@ body {
   padding: 0;
 }
 
+/* ### Color palette
+
+Primary (green):
+
+- `hsl(160deg, 100%, 30%)`
+
+Secondary (gold):
+
+- `hsl(45deg, 100%, 50%)` (lighter)
+- `hsl(45deg, 100%, 40%)` (darker)
+
+Grays:
+
+- `hsl(0deg, 0%, 0%)` (black)
+- `hsl(0deg, 0%, 10%)` (very dark)
+- `hsl(0deg, 0%, 30%)` (dark)
+- `hsl(0deg, 0%, 40%)` (medium)
+- `hsl(0deg, 0%, 60%)` (light)
+- `hsl(0deg, 0%, 100%)` (white) */
+
 /* Add styles here! */
+body {
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 5px solid hsl(0deg, 0%, 30%);
+}
+.max-width-wrapper{
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro-chunk {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+} 
+
+.card {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsl(0deg, 0%, 100%);
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-bottom: 5px solid hsl(0deg, 0%, 30%);
+}
+
+h2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsl(45deg, 100%, 50%);
+  padding-left: 10px;
+  /* margin-bottom: 10px; */
+  margin-left: -20px;
+  padding: 10px;
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+}
+
+p strong{
+  color: hsl(160deg, 100%, 30%)
+}
+
+
+/* @media (max-width: 300px) {
+  .small-only {
+    color: red;
+  }
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media (min-width: 300px) {
+  .desktop-only {
+    display: block;
+  }
+  .mobile-only {
+    display: none;
+  }
+} */
