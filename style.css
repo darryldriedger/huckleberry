@@ -52,22 +52,3 @@ h2 {
 p strong{
   color: hsl(160deg, 100%, 30%)
 }
-
-/* @media (max-width: 300px) {
-  .small-only {
-    color: red;
-  }
-}
-
-.desktop-only {
-  display: none;
-}
-
-@media (min-width: 300px) {
-  .desktop-only {
-    display: block;
-  }
-  .mobile-only {
-    display: none;
-  }
-} */
